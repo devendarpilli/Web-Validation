@@ -1,0 +1,82 @@
+body {
+  background-color : #efefff;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px 10px 10px 10px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+h1 {
+  font-size: 2.0em;
+}
+
+h2 {
+  font-size: 1.7em;
+  border-bottom: 1px solid red;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+em {
+    color: black;
+}
+
+p {
+	color:blue;
+}
+.required h3, .required p{
+	color:red;
+}
+main{
+	width:65%;
+}
+aside{
+	width:24%;
+	border:1px solid red;
+	border-radius:5px;
+	padding:0px 15px 20px 15px;
+	background-color:#efefef;
+	margin-bottom:10px;
+}
+.courses{
+background:url("../images/spring2.png") no-repeat;
+background-size:100% 100%;
+}
+aside h4{
+	border-bottom:1px dotted #A0A0A0;
+}
+aside h4 em{
+	color:red;
+}
+aside a{
+	text-decoration:none;
+	
+}
+aside a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+.courses #submit{
+	margin-top:20px;
+	margin-left:20%;
+}
+.courses-selected{
+	min-height:150px;
+}
